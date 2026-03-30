@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 
-df=pd.read_csv(r'c:\DataScience\Dataset\CSV\Salary_Data.csv')
+df=pd.read_csv(r'Salary_Data.csv')
 x=df.iloc[:,:-1].values
 y=df.iloc[:,-1].values
 
